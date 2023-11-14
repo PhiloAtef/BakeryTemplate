@@ -1,0 +1,212 @@
+
+.backg{
+    background-image: url(BakeryImages/images/drew-coffman-1872.jpg);
+    background-size: cover;
+  background-position: center;
+  
+}
+.container{
+    min-height: 100%; 
+  width: 90%;
+  margin: auto;
+}
+body, html{
+    margin: 0;
+}
+h1 {
+    font-size: 76px;
+    font-weight: 400;
+    font-family: "Alegreya", sans-serif;
+    color: white;
+    margin: 0px 0px 18px;
+  }
+  h2, h3, p{
+    font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  }
+.navbar{
+    margin: 0px 180px;
+}
+.navbar img{
+    width: 200px;  
+    vertical-align: middle;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+  
+  vertical-align: middle;
+  float: right;
+  
+}
+li{
+
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.home{
+    margin-top: 100px;
+    padding: 60px;
+    text-align: center;
+    /* kinda feels like text is too spaced apart, look into fix */
+}
+.btn{
+    margin: 40px 10px 10px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 16px;
+    opacity: 1;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+.bread{
+    background-color: rgb(142, 119, 84);
+    color: white;
+    font-weight: bold;
+}
+.trans{
+    background-color: transparent;
+    border-color: white;
+    font-weight: bold;
+    color: white;
+}
+.p1{
+    font-size: 22px; 
+    margin: 0px 0px 5px;
+}
+.p2{
+    font-size: 24px;
+    margin: 10px 380px 20px;
+    
+}
+.contentPadding {
+    padding: 60px 80px;
+  }
+  .whoWeAre{
+    min-height: 100%;
+  }
+.whoWeAre img {
+    width: 45%;
+    vertical-align: middle;
+  }
+  
+  .whoWeAreList {
+    width: 45%;
+    padding: 60px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .semiTransparentText {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .whiteSemiTransparentText {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .whoWeAreListItem {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .whoWeAreListItem img {
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .whoWeAreListItem p {
+    margin: 0px 20px;
+    display: inline-block;
+  }
+ .title{
+    color: black;
+    font-size: 32px;
+    font-family: "Alegreya";
+  }
+  .ourLocation{
+    min-height: 100%;
+  }
+  .ourLocationContent img {
+    width: 45%;
+    padding: 60px;
+    vertical-align: middle;
+  }
+  .ourLocationParagraph {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+  }
+  
+  .ourbaking{
+    min-height: 100%;
+  }
+  .ourBakingContent {
+    text-align: center;
+    width: 85%;
+    padding: 60px 0px;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  .ourBakingItem {
+    width: 33.33%;
+    float: left;
+  }
+  
+  .ourBakingItemContent {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .ourBakingItemContent img {
+    width: 100%;
+  }
+
+  .clearFix{
+    clear: both;
+  }
+
+  .contactInformation{
+    min-height: 100%;
+  }
+  .contactInformationContent {
+    overflow: auto;
+    margin: auto;
+    padding: 60px 0px;
+    width: 85%;
+  }
+  
+  .contactInformationImg {
+    width: 45%;
+    float: right;
+  }
+  
+  .contactInformationParagraph {
+    width: 45%;
+    float: left;
+  }
+  
+  .contactInfoListItem {
+    overflow: auto;
+  }
+  
+  .contactInfoListItem img {
+    width: 40px;
+    background-color: rgb(143, 119, 85);
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .contactInfoListItem p {
+    float: left;
+  }
